@@ -58,7 +58,7 @@ const About = () => {
                   <div className="relative bg-card rounded-lg p-6">
                     <div className="aspect-square bg-gradient-primary rounded-lg flex items-center justify-center overflow-hidden">
                       <img 
-                        src="/abhishek.jpeg" 
+                        src="https://raw.githubusercontent.com/Abhisheksainii/abhishek-portfolio/refs/heads/main/public/abhishek.jpeg" 
                         alt="Abhishek Saini" 
                         className="w-full h-full object-cover rounded-lg"
                       />
