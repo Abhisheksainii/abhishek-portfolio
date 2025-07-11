@@ -1,8 +1,10 @@
-# Welcome to your Lovable project
+# Abhishek Saini's Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my skills and projects as a Full-Stack Developer.
 
-**URL**: https://lovable.dev/projects/dd0f520f-9709-4015-b940-7a2eeb863822
+## Live Demo
+
+**URL**: https://abhisheksainii.github.io/abhishek-portfolio/
 
 ## How can I edit this code?
 
