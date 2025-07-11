@@ -57,31 +57,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <a href="mailto:john@example.com" className="text-primary hover:text-primary/80 transition-colors">
-                      john@example.com
+                    <a href="mailto:abhisheksaini1219@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
+                      abhisheksaini1219@gmail.com
                     </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="h-10 w-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Phone className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-semibold">Phone</p>
-                    <a href="tel:+1234567890" className="text-primary hover:text-primary/80 transition-colors">
-                      +1 (234) 567-8900
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="h-10 w-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <MapPin className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
                   </div>
                 </div>
               </div>
@@ -89,18 +67,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <h4 className="font-semibold">Follow me on</h4>
                 <div className="flex space-x-4">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+                  <a href="https://github.com/Abhisheksainii" target="_blank" rel="noopener noreferrer" 
                      className="h-10 w-10 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
                     <Github className="h-5 w-5" />
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.linkedin.com/in/abhishek-saini-9885941bb/" target="_blank" rel="noopener noreferrer"
                      className="h-10 w-10 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
                     <Linkedin className="h-5 w-5" />
                   </a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                     className="h-10 w-10 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
-                    <Twitter className="h-5 w-5" />
-                  </a>
+                 
                 </div>
               </div>
             </div>

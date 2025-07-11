@@ -9,17 +9,15 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
             <div className="text-center md:text-left">
-              <p className="text-muted-foreground text-sm">
-                Built with <Heart className="h-4 w-4 inline text-red-500" /> using React & Tailwind CSS
-              </p>
+            
               <p className="text-muted-foreground text-sm mt-1">
-                © {currentYear} John Developer. All rights reserved.
+                © {currentYear} Abhishek Saini. All rights reserved.
               </p>
             </div>
             
             <div className="flex items-center space-x-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Abhisheksainii"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -28,7 +26,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/abhishek-saini-9885941bb/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -37,7 +35,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:john@example.com"
+                href="mailto:abhisheksaini1219@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -50,7 +48,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-xs">
               Inspired by the amazing work of developers in the community. 
               <br className="hidden sm:inline" />
-              Designed & Built by John Developer
+              Designed & Built by Abhishek Saini
             </p>
           </div>
         </div>

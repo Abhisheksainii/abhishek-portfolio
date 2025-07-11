@@ -2,8 +2,8 @@ import { Card } from "@/components/ui/card";
 
 const About = () => {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Node.js",
-    "Python", "PostgreSQL", "MongoDB", "AWS", "Docker", "GraphQL"
+    "Flutter", "Dart", "Go", "Firebase", "OpenAI", "React", "Google Cloud",
+     "PostgreSQL", "MongoDB", "AWS", "Docker", "Supabase"
   ];
 
   return (
@@ -18,15 +18,15 @@ const About = () => {
             <div className="animate-slide-in">
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Hello! I'm John, a passionate full-stack developer with over 5 years of experience 
-                  crafting digital solutions that make a difference. My journey in web development 
-                  started back in 2019 when I built my first portfolio website, and I've been 
+                  Hello! I'm Abhishek Saini, a passionate full-stack developer with over 3 years of experience 
+                  crafting digital solutions that make a difference. My journey in Mobile and Web development 
+                  started back in 2022 when I built my first ERP website, and I've been 
                   hooked ever since.
                 </p>
                 
                 <p>
                   I specialize in building exceptional digital experiences that are accessible, 
-                  performant, and user-friendly. Whether it's a responsive web application, 
+                  performant, and user-friendly. Whether it's a responsive web application,
                   a complex backend system, or a mobile app, I enjoy turning ideas into reality 
                   through clean, efficient code.
                 </p>
@@ -56,18 +56,19 @@ const About = () => {
                 <div className="relative group">
                   <div className="absolute -inset-4 bg-gradient-primary rounded-lg opacity-25 group-hover:opacity-40 transition-opacity blur"></div>
                   <div className="relative bg-card rounded-lg p-6">
-                    <div className="aspect-square bg-gradient-primary rounded-lg flex items-center justify-center text-6xl font-bold text-primary-foreground">
-                      JD
+                    <div className="aspect-square bg-gradient-primary rounded-lg flex items-center justify-center overflow-hidden">
+                      <img 
+                        src="/abhishek.jpeg" 
+                        alt="Abhishek Saini" 
+                        className="w-full h-full object-cover rounded-lg"
+                      />
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-bold mb-2">John Developer</h3>
+                  <h3 className="text-xl font-bold mb-2">Abhishek Saini</h3>
                   <p className="text-primary text-sm font-mono">Full-Stack Developer</p>
-                  <p className="text-muted-foreground text-sm mt-2">
-                    Based in San Francisco, CA
-                  </p>
                 </div>
               </Card>
             </div>

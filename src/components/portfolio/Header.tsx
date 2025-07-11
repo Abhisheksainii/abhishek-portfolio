@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8">
-            <h1 className="text-xl font-bold text-primary glow-text">Portfolio</h1>
+            <h1 className="text-xl font-bold text-primary glow-text">Abhishek Saini</h1>
             <nav className="hidden md:flex space-x-6">
               <button onClick={() => scrollToSection('about')} className="nav-link">
                 About
@@ -33,17 +33,17 @@ const Header = () => {
           
           <div className="flex items-center space-x-4">
             <div className="hidden sm:flex items-center space-x-3">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Abhisheksainii" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:text-primary">
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/abhishek-saini-9885941bb/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:text-primary">
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:contact@example.com">
+              <a href="mailto:abhisheksaini1219@gmail.com">
                 <Button variant="ghost" size="icon" className="hover:text-primary">
                   <Mail className="h-5 w-5" />
                 </Button>

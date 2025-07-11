@@ -13,14 +13,14 @@ const Hero = () => {
           <div className="animate-fade-in">
             <p className="text-primary text-lg mb-4 font-mono">Hi, my name is</p>
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-foreground">
-              John Developer
+              Abhishek Saini
             </h1>
             <h2 className="text-3xl md:text-5xl font-bold mb-8 text-muted-foreground">
               I build exceptional digital experiences.
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
               I'm a passionate full-stack developer specializing in building accessible, 
-              pixel-perfect web applications. Currently focused on creating innovative 
+              pixel-perfect Mobile and Web applications. Currently focused on creating innovative 
               solutions that bridge design and functionality.
             </p>
           </div>
@@ -45,15 +45,15 @@ const Hero = () => {
             </div>
             
             <div className="flex justify-center space-x-6 mb-12">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/Abhisheksainii" target="_blank" rel="noopener noreferrer" 
                  className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/abhishek-saini-9885941bb/" target="_blank" rel="noopener noreferrer"
                  className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto:contact@example.com"
+              <a href="mailto:abhisheksaini1219@gmail.com"
                  className="text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-6 w-6" />
               </a>

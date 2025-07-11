@@ -4,53 +4,27 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Product Manager",
-      company: "TechCorp Inc.",
-      content: "John consistently delivered high-quality code and showed exceptional problem-solving skills. His attention to detail and ability to translate complex requirements into elegant solutions made him an invaluable team member.",
-      rating: 5,
-      avatar: "SJ"
+      name: "Jonathan Bingham",
+      role: "CEO",
+      company: "Adaelo",
+      content: "I highly recommend Abhishek as a software developer! He demonstrates exceptional skill and attentiveness in his work and consistently delivers high-quality results. His enthusiasm for technology and development is evident, and he approaches each project with a positive and proactive attitude. Additionally, Abhishek is known for his swiftness, ensuring that tasks are completed efficiently without compromising on quality.",      rating: 5,
+      avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFLZZ6ZZXO8VA/profile-displayphoto-shrink_800_800/B4EZVExm1uGYAc-/0/1740615611073?e=1757548800&v=beta&t=4hh6jCYMNxDc8M1NyZ_SRVeB3tYX6Fx4NvRDPA_PySM"
     },
     {
-      name: "Michael Chen",
-      role: "CTO",
-      company: "StartupXYZ",
-      content: "Working with John was a pleasure. He not only met all our technical requirements but also provided valuable insights that improved our overall product strategy. His communication skills are outstanding.",
-      rating: 5,
-      avatar: "MC"
-    },
+      name: "Edwin Brito",
+      role: "Marketing and Technology Consultant",
+      company: "Brito Designs",
+      content: "Working with Abhishek on the Eagle TIP project was a delight, where he truly excelled as a software developer. Abhishek's deep understanding of the project's tech was evident in how he consistently delivered top-notch work, always meeting deadlines and budget targets. What really impressed me was Abhishek's pivotal role in reviewing the project’s onboarding process. It showcased not just his technical expertise but also his ability to think creatively. Throughout the project, his straightforward communication and punctuality were right on the mark.",      rating: 5,
+      avatar: "https://media.licdn.com/dms/image/v2/C5603AQH1jfpJDk_WAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516461073029?e=1757548800&v=beta&t=Kx51R7MAObNt4UDCp48p24qHYrogwKxYYZ1DKM2xIiQ",  },
     {
-      name: "Emily Rodriguez",
-      role: "Design Director",
-      company: "Creative Studio",
-      content: "John bridges the gap between design and development beautifully. He understands the importance of user experience and implements designs with pixel-perfect precision while maintaining performance.",
-      rating: 5,
-      avatar: "ER"
+      name: "Qurban Ali",
+      role: "COO",
+      company: "Ndjoyit",
+      content: "Abhishek's teamwork and communication skills were evident when it came to changes or adding new features. He'd delve into requests, find smart solutions, and break it down for the team, not just fixing the issue but making things even better. His aptitude for planning also sped up development. I strongly recommend Abhishek for any software gig. His technical skills, reliability, and fantastic team spirit make him a standout player. I'm confident Abhishek will continue to excel in our future projects." ,     rating: 5,
+      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHFVETxgcRHgA/profile-displayphoto-shrink_400_400/B4DZT.fABiHkAk-/0/1739436328131?e=1757548800&v=beta&t=-GPpFP7bx7XYx5MHJb9riNQHDDWT-jw7jHoIJ6iy5FU"
     },
-    {
-      name: "David Thompson",
-      role: "Freelance Client",
-      company: "Thompson Consulting",
-      content: "I hired John for a complex web application project. He delivered beyond expectations, on time and within budget. The application has been running smoothly for over a year with minimal maintenance.",
-      rating: 5,
-      avatar: "DT"
-    },
-    {
-      name: "Lisa Wang",
-      role: "Marketing Director",
-      company: "GrowthCo",
-      content: "John transformed our outdated website into a modern, responsive platform that increased our conversion rates by 40%. His expertise in both frontend and backend development saved us time and money.",
-      rating: 5,
-      avatar: "LW"
-    },
-    {
-      name: "Alex Kumar",
-      role: "Lead Developer",
-      company: "InnovateTech",
-      content: "John is one of the most skilled developers I've worked with. His code is clean, well-documented, and maintainable. He's also a great mentor who helped junior developers on our team grow.",
-      rating: 5,
-      avatar: "AK"
-    }
+   
+   
   ];
 
   return (
@@ -78,8 +52,12 @@ const Testimonials = () => {
                 </div>
                 
                 <div className="flex items-center space-x-3 mt-6">
-                  <div className="h-10 w-10 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm">
-                    {testimonial.avatar}
+                  <div className="h-10 w-10 rounded-full overflow-hidden flex-shrink-0">
+                    <img 
+                      src={testimonial.avatar} 
+                      alt={testimonial.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">{testimonial.name}</p>
@@ -102,7 +80,7 @@ const Testimonials = () => {
                 Let's discuss how we can bring your ideas to life.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="mailto:contact@example.com" className="inline-block">
+                <a href="mailto:abhisheksaini1219@gmail.com" className="inline-block">
                   <button className="bg-gradient-primary hover:opacity-90 transition-opacity px-6 py-3 rounded-md font-medium text-primary-foreground">
                     Start a Project
                   </button>

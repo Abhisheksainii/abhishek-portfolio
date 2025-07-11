@@ -5,42 +5,48 @@ import { ExternalLink } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechCorp Inc.",
-      website: "https://techcorp.com",
-      period: "2022 — Present",
-      description: "Lead development of scalable web applications serving 100k+ users. Architected microservices infrastructure and mentored junior developers.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
+      title: "Mobile App Developer",
+      company: "FieldAssist Pvt. Ltd.",
+      website:"https://fieldassist.com/",
+      period: "2023 — Present",
+      description: "Lead development of scalable mobile applications serving 50k+ users. Architected state management and mentored junior developers.",
+      technologies: ["Flutter", "Dart", "Firebase"],
       achievements: [
-        "Reduced page load times by 40% through optimization strategies",
-        "Led team of 5 developers on major product redesign",
-        "Implemented CI/CD pipeline improving deployment efficiency by 60%"
+        "Engineered a biometric Face Detection unlock feature utilizing Google ML Kit, resulting in a 40% reduction in user-reported security breaches and enhanced data protection for high-profile B2B clients.",
+        "Strengthened the MVVM architecture and redesigned whole UI to onboard a high-profile client, resulting in an increase in net revenue of the company by 40%.",
+        "Developed and implemented automated unit testing suites using Dart, achieving 95% code coverage across core modules and reducing post-release bug reports by 40% within one year.",
+        "Migrated application's state management architecture from Provider to BLoC, decreasing memory consumption by 60% and improving application responsiveness by 35% for users on low-end devices.",
+        "Spearheaded bi-weekly code review sessions, evaluating over 10 pull requests monthly and providing actionable feedback, accelerating code delivery timelines by 20% and ensuring architectural alignment.",
+        "Mentored two interns through active feedback and code reviews on pull requests, resulting in interns producing 50% fewer bugs and gaining deeper understanding of the product codebase.",
+        
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      website: "https://startupxyz.com",
+      title: "Full Stack Developer",
+      company: "Adaelo",
+      website: "https://adaelo.com",
       period: "2020 — 2022",
-      description: "Developed responsive web applications and collaborated with design team to create intuitive user interfaces.",
-      technologies: ["Vue.js", "JavaScript", "Sass", "Firebase"],
+      description: "Developed responsive web applications and mobile applications and collaborated with design team to create intuitive user interfaces.",
+      technologies: ["Flutter", "JavaScript", "Dart", "Firebase", "Go", "Google Cloud"],
       achievements: [
-        "Built component library used across 3 product lines",
-        "Increased user engagement by 35% through UX improvements",
-        "Established coding standards and best practices"
+          "Developed a modular and scalable front-end architecture using Flutter Web and Riverpod, leading to a 30% reduction in bug reports and improved code maintainability across the team",
+          "Established CI/CD pipelines with GitHub Actions, which automated testing, building, and deployment processes; increased deployment frequency by 60% and reduced deployment times by 20%.",
+          "Optimized Firebase Firestore queries, cutting database read times by 60%, and implemented cloud functions for seamless automation.",
+          "Integrated Stripe payments as a payment gateway which reduced checkout failures by 30%.",
       ]
     },
     {
-      title: "Junior Web Developer",
-      company: "Digital Agency Pro",
-      website: "https://digitalagency.com",
+      title: "Junior Flutter Developer",
+      company: "Fitelo Pvt. Ltd.",
+      website: "https://fitelo.co",
       period: "2019 — 2020",
-      description: "Created custom websites for clients across various industries. Gained experience in full project lifecycle from concept to deployment.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+      description: "Created mobile interfaces and collaborated with design team to create intuitive user interfaces.",
+      technologies: ["Flutter", "Dart", "Firebase"],
       achievements: [
-        "Delivered 25+ client projects on time and budget",
-        "Improved agency's development workflow",
-        "Received 'Rising Star' award for exceptional performance"
+        "Spearheaded development of five proof-of-concept features for the wellness app, delivering rapid prototypes within two-week sprints and incorporating user feedback to refine functionality and improve user experience.",
+        "Engineered intuitive user interfaces using Flutter and integrated seamlessly with backend APIs, resulting in a 30% improvement in user engagement and a 20% decrease in user drop-off rates.",
+        "Diagnosed and resolved performance bottlenecks in the app's data processing module, resulting in a 40% decrease in latency and a 25% improvement in overall app responsiveness.",
+      "Diagnosed and resolved performance bottlenecks in the app's data processing module, resulting in a 40% decrease in latency and a 25% improvement in overall app responsiveness."
       ]
     }
   ];

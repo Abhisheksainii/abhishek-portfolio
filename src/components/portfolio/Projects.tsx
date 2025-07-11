@@ -6,75 +6,34 @@ import { Github, ExternalLink, Folder } from "lucide-react";
 const Projects = () => {
   const featuredProjects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React and Node.js. Features include user authentication, payment processing, inventory management, and admin dashboard.",
+      title: "Adaelo",
+      description: "Adaelo is a music streaming platform built with Flutter and Firebase connecting artists with their fans, patrons, and collaborators.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      github: "https://github.com/example/ecommerce",
-      live: "https://ecommerce-demo.com",
+      technologies: [ "PostgreSQL", "Stripe", "Google Cloud", "Firebase", "Flutter", "Dart", "Go"],
+ 
+      live: "https://adaelo.com",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "Ndjoyit App",
+      description: "A collaborative and community focused social media application with real-time updates and team collaboration features.",
       image: "/api/placeholder/600/400",
-      technologies: ["Vue.js", "Firebase", "Vuetify", "Socket.io"],
-      github: "https://github.com/example/taskmanager",
-      live: "https://taskmanager-demo.com",
+      technologies: ["Flutter", "Firebase", "Google Cloud"],
+      live: "https://ndjoyit.tech/",
       featured: true
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.",
+      title: "IIN App and Dashboard",
+      description: "India’s Impact Network (IIN) is a dynamic platform designed to connect, empower, and mobilize young change makers across India. Built for students, aspiring entrepreneurs, and passionate leaders, IIN bridges grassroots energy with national-level opportunities.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "TypeScript", "OpenWeather API", "Chart.js"],
-      github: "https://github.com/example/weather",
-      live: "https://weather-demo.com",
+      technologies: ["React", "TypeScript", "Flutter", "Firebase"],
+  
+      live: "https://indiasimpactnetwork.com/",
       featured: true
     }
   ];
 
-  const otherProjects = [
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with React and Tailwind CSS.",
-      technologies: ["React", "Tailwind", "Framer Motion"],
-      github: "https://github.com/example/portfolio",
-      live: "https://portfolio-demo.com"
-    },
-    {
-      title: "Recipe Finder",
-      description: "A recipe search application with ingredient-based filtering.",
-      technologies: ["JavaScript", "Recipe API", "Bootstrap"],
-      github: "https://github.com/example/recipes"
-    },
-    {
-      title: "Expense Tracker",
-      description: "A mobile-responsive expense tracking app with data visualization.",
-      technologies: ["React", "Chart.js", "LocalStorage"],
-      github: "https://github.com/example/expenses",
-      live: "https://expenses-demo.com"
-    },
-    {
-      title: "URL Shortener",
-      description: "A URL shortening service with analytics and custom domains.",
-      technologies: ["Node.js", "MongoDB", "Express"],
-      github: "https://github.com/example/urlshortener"
-    },
-    {
-      title: "Chat Application",
-      description: "Real-time chat application with rooms and message history.",
-      technologies: ["Socket.io", "React", "Node.js"],
-      github: "https://github.com/example/chat",
-      live: "https://chat-demo.com"
-    },
-    {
-      title: "Music Player",
-      description: "A web-based music player with playlist management.",
-      technologies: ["JavaScript", "Web Audio API", "CSS3"],
-      github: "https://github.com/example/music"
-    }
-  ];
+
 
   return (
     <section id="projects" className="py-20">
@@ -117,11 +76,7 @@ const Projects = () => {
                   </div>
                   
                   <div className={`flex space-x-4 ${index % 2 === 1 ? 'lg:justify-end' : ''}`}>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Button variant="ghost" size="icon" className="hover:text-primary">
-                        <Github className="h-5 w-5" />
-                      </Button>
-                    </a>
+                    
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
                       <Button variant="ghost" size="icon" className="hover:text-primary">
                         <ExternalLink className="h-5 w-5" />
@@ -134,7 +89,7 @@ const Projects = () => {
           </div>
           
           {/* Other Projects */}
-          <div className="text-center mb-12">
+          {/* <div className="text-center mb-12">
             <h3 className="text-2xl font-bold mb-4">Other Noteworthy Projects</h3>
             <p className="text-muted-foreground">A few more projects worth mentioning</p>
           </div>
@@ -176,7 +131,7 @@ const Projects = () => {
                 </div>
               </Card>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
