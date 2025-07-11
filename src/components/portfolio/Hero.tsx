@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="animate-fade-in">
             <p className="text-primary text-lg mb-4 font-mono">Hi, my name is</p>
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-foreground">
-              John Developer
+              Abhishek Saini
             </h1>
             <h2 className="text-3xl md:text-5xl font-bold mb-8 text-muted-foreground">
               I build exceptional digital experiences.

@@ -57,13 +57,13 @@ const About = () => {
                   <div className="absolute -inset-4 bg-gradient-primary rounded-lg opacity-25 group-hover:opacity-40 transition-opacity blur"></div>
                   <div className="relative bg-card rounded-lg p-6">
                     <div className="aspect-square bg-gradient-primary rounded-lg flex items-center justify-center text-6xl font-bold text-primary-foreground">
-                      JD
+                      AS
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-bold mb-2">John Developer</h3>
+                  <h3 className="text-xl font-bold mb-2">Abhishek Saini</h3>
                   <p className="text-primary text-sm font-mono">Full-Stack Developer</p>
                   <p className="text-muted-foreground text-sm mt-2">
                     Based in San Francisco, CA

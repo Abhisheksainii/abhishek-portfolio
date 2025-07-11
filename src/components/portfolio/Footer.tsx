@@ -13,7 +13,7 @@ const Footer = () => {
                 Built with <Heart className="h-4 w-4 inline text-red-500" /> using React & Tailwind CSS
               </p>
               <p className="text-muted-foreground text-sm mt-1">
-                © {currentYear} John Developer. All rights reserved.
+                © {currentYear} Abhishek Saini. All rights reserved.
               </p>
             </div>
             
@@ -50,7 +50,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-xs">
               Inspired by the amazing work of developers in the community. 
               <br className="hidden sm:inline" />
-              Designed & Built by John Developer
+              Designed & Built by Abhishek Saini
             </p>
           </div>
         </div>
